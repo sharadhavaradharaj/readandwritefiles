@@ -22,7 +22,7 @@ for row in reader:
 
 
 #Writing the extracted contents (Full_Name and Country) into a new file customer_countries.csv
-output_file =  open('customer_countries.csv', 'w', newline='') 
+output_file =  open('customer_country.csv', 'w') 
 writer = csv.writer(output_file)
 writer.writerow(['Full Name', 'Country'])
 for customer_country in customer_countries:
